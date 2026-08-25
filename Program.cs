@@ -23,13 +23,31 @@
             #region Q3:What are multiple type parameters? Write Pair<TKey, TValue>.
 
             // Multiple type parameters allow a generic class or method to accept more than one type parameter, enabling it to work with multiple data types simultaneously. This is useful when you want to create a class or method that can handle different combinations of types.
-           
-            
+
+
             //Pair<int, string> person = new Pair<int, string>(1, "Aisha");
 
             //Console.WriteLine(person.Key);
             //Console.WriteLine(person.Value);
             #endregion
+
+            #region Q4: What is a generic method? Write Swap<T> method.
+            // A generic method is a method that is defined with type parameters, allowing it to operate on different data types while providing type safety. 
+            //int a = 10;
+            //int b = 20;
+
+            //Swap(ref a, ref b);
+
+            //Console.WriteLine(a); 
+            //Console.WriteLine(b); 
+            #endregion
+        }
+        public static void Swap<T>(ref T a,ref T b)
+        {
+            T temp = a;
+
+            a = b;
+            b = temp;
         }
     }
 }
