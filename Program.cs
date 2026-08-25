@@ -10,6 +10,15 @@
             //A generic class uses a type parameter such as T, allowing the same class to work with different data types while maintaining type safety.
 
             #endregion
+
+            #region Q2: Write a generic class Container<T> with Add and Get methods.
+
+            //container<string> container =new container<string>();
+
+            //container.Add("Aisha");
+
+            //Console.WriteLine(container.Get());
+            #endregion
         }
     }
 }
