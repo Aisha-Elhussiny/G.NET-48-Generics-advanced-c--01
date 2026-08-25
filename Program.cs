@@ -41,13 +41,23 @@
             //Console.WriteLine(a); 
             //Console.WriteLine(b); 
             #endregion
+
+            #region Q5: Write a generic method FindMax<T> that finds maximum value
+            Console.WriteLine(FindMax<int>(10, 20));
+
+            #endregion
+
         }
-        public static void Swap<T>(ref T a,ref T b)
+        public static void Swap<T>(ref T a, ref T b)
         {
             T temp = a;
 
             a = b;
             b = temp;
+        }
+        public static T FindMax<T>(T a, T b) where T : IComparable<T>
+        {
+            return a.CompareTo(b) > 0 ? a : b ;
         }
     }
 }
