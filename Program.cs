@@ -47,6 +47,10 @@
 
             #endregion
 
+            #region Q6: What is a generic interface? Write IRepository<T>.
+            // A generic interface is an interface that is defined with type parameters, allowing it to operate on different data types while providing type safety. Generic interfaces enable developers to create contracts that can be implemented by classes working with various data types.
+            #endregion
+
         }
         public static void Swap<T>(ref T a, ref T b)
         {
