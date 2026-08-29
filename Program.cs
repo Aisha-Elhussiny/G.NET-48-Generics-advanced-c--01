@@ -148,6 +148,42 @@
             //You can inherit from a generic class by specifying the type parameter(s) in the derived class. The derived class can either use the same type parameter(s) or specify concrete types for them. This allows you to create specialized versions of the generic class while still benefiting from its generic behavior.
             //y3ni lw 3ayz a5od el class ely 3mltaha generic w a3mlha extend 3la class tany lw 3ayz a5od el type parameter bta3ha w a3mlha extend 3la class tany aw a5od el type parameter bta3ha w a7ot feha type mo3ayan.
             #endregion
+            #region Q20: Complete Exercise - Create a generic Cache<TKey, TValue>with Add, Get, Remove, Contains, and expiration support. 
+
+
+            //Cache<int, string> cache = new Cache<int, string>();
+
+
+            //// The value will expire after 5 seconds.
+            //cache.Add( 1,"Aisha", 5 );
+
+
+            //Console.WriteLine( "Value: " + cache.Get(1));
+
+            //Console.WriteLine("Contains key 1: "+ cache.Contains(1) );
+
+
+            //Console.WriteLine( "Press Enter after 5 seconds.");
+
+            //Console.ReadLine();
+
+
+            //Console.WriteLine( "Value after expiration: "+ cache.Get(1) );
+
+            //Console.WriteLine("Contains key 1: " + cache.Contains(1));
+            ////hytl3 null 3shan expired w hytl3 false 3shan expired
+
+            //cache.Add( 2,"Ali", 60);
+            ////zawdna ali 
+
+            //bool removed = cache.Remove(2);
+            ////kda ms7nah
+
+            //Console.WriteLine("Key 2 removed: " + removed); //hytl3 true 3shan ms7nah
+
+            //Console.WriteLine( "Contains key 2: " + cache.Contains(2) ); //hytl3 false 3shan ms7nah brdoo
+
+            #endregion
 
 
         }
