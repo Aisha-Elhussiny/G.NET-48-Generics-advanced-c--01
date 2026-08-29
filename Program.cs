@@ -132,7 +132,11 @@
             #region Q16: What is contravariance? Explain the 'in' keyword.
 
             //Contravariance allows you to use a less derived type than originally specified. The in keyword is used to indicate that a type parameter is contravariant, meaning it can be substituted with a less derived type. This is typically used in interfaces to enable flexibility in method parameter types.
+
+            #endregion
+            #region Q17: What is the difference between covariance and contravariance?
             //difference between covariance and contravariance is that covariance allows you to use a more derived type, while contravariance allows you to use a less derived type. Covariance is typically used in return types, while contravariance is typically used in parameter types.
+
             #endregion
 
         }
