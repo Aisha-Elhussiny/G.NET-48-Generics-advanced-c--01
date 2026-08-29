@@ -5,7 +5,7 @@ using System.Text;
 namespace Generics_advanced_c__01
 {
     //Question 2
-    public class container<T>
+    public class containerClass<T>
     {
         private T item;
 

@@ -13,7 +13,7 @@
 
             #region Q2: Write a generic class Container<T> with Add and Get methods.
 
-            //container<string> container =new container<string>();
+            //containerClass<string> container = new containerClass<string>();
 
             //container.Add("Aisha");
 
@@ -68,7 +68,7 @@
             //class constraint requires the generic type to be a reference type.
 
             // ====== example ======
-            //ReferenceContainer<string> container = new ReferenceContainer<string>();
+            ReferenceContainer<string> refcontainer = new ReferenceContainer<string>();
 
             // hna b2a el3ks howa beygbrna nktb refrence type msh value
 
