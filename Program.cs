@@ -101,6 +101,13 @@
             // hna T hya el class ely bywarath mn el base class elly hwa Person
             #endregion
 
+            #region Q12: How do you apply multiple constraints? Write an example
+            //You can apply multiple constraints by separating them with commas.  you can require a generic type to be a reference type and implement a specific interface.
+
+
+
+            #endregion
+
         }
         public static void Swap<T>(ref T a, ref T b)
         {
