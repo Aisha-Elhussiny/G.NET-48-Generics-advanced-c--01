@@ -129,6 +129,11 @@
 
             //Covariance allows you to use a more derived type than originally specified. The out keyword is used to indicate that a type parameter is covariant, meaning it can be substituted with a more derived type. This is typically used in interfaces  to enable flexibility in method return types.
             #endregion
+            #region Q16: What is contravariance? Explain the 'in' keyword.
+
+            //Contravariance allows you to use a less derived type than originally specified. The in keyword is used to indicate that a type parameter is contravariant, meaning it can be substituted with a less derived type. This is typically used in interfaces to enable flexibility in method parameter types.
+            //difference between covariance and contravariance is that covariance allows you to use a more derived type, while contravariance allows you to use a less derived type. Covariance is typically used in return types, while contravariance is typically used in parameter types.
+            #endregion
 
         }
         public static void Swap<T>(ref T a, ref T b)
