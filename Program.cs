@@ -112,6 +112,19 @@
             //The default keyword in generics is used to obtain the default value of a type parameter. For reference types, the default value is null, while for value types, it is the zero value ( 0 for int, false for bool). It allows you to create instances of generic types without knowing their specific type at compile time.
             #endregion
 
+            #region Q14: Write a SafeList<T> that returns default when the index is invalid.
+            //SafeList<int> safeList = new SafeList<int>();
+
+
+            //====== example ======
+            //SafeList<string> names = new SafeList<string>();
+
+            //names.Add("Aisha");
+
+            //Console.WriteLine(names.Get(0));  //hytl3 Aisha
+            //Console.WriteLine(names.Get(10)); //hytl3 null 3shan da el default w hwa invalid index
+            #endregion
+
         }
         public static void Swap<T>(ref T a, ref T b)
         {
