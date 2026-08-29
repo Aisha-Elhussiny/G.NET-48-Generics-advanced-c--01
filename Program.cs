@@ -92,6 +92,14 @@
 
 
             #endregion
+            #region Q11: What is the base class constraint? Write an example.
+            //base class constraint requires the generic type to be a derived class of the specified base class.
+
+
+            //====== example ======
+            //PersonContainer<Child> container =new PersonContainer<Child>();
+            // hna T hya el class ely bywarath mn el base class elly hwa Person
+            #endregion
 
         }
         public static void Swap<T>(ref T a, ref T b)
