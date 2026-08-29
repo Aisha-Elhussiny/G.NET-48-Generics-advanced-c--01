@@ -86,6 +86,13 @@
 
             #endregion
 
+            #region Q10:  What is the interface constraint? Write an example.
+            //inerface constraint requires the generic type to implement the interface
+            //lazem ykon bytab2 el interface da
+
+
+            #endregion
+
         }
         public static void Swap<T>(ref T a, ref T b)
         {
