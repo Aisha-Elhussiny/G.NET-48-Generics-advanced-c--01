@@ -43,12 +43,25 @@
             #endregion
 
             #region Q5: Write a generic method FindMax<T> that finds maximum value
-            Console.WriteLine(FindMax<int>(10, 20));
+            //Console.WriteLine(FindMax<int>(10, 20));
 
             #endregion
 
             #region Q6: What is a generic interface? Write IRepository<T>.
             // A generic interface is an interface that is defined with type parameters, allowing it to operate on different data types while providing type safety. Generic interfaces enable developers to create contracts that can be implemented by classes working with various data types.
+            #endregion
+
+            #region Q7: What is the 'struct' constraint? Write an example.
+            //The struct constraint requires the generic type to be a value type
+            //lma a3oz agbro eno ydkhl value type b3ml el struct constrain.
+
+
+
+            //=========  example ===========
+            //numContainer<int> number = new numContainer<int>();
+          //shaghal 3adi w sah 3shan int de value type lakn lw grbt akhleha string msh hyrda
+
+
             #endregion
 
         }
