@@ -59,8 +59,18 @@
 
             //=========  example ===========
             //numContainer<int> number = new numContainer<int>();
-          //shaghal 3adi w sah 3shan int de value type lakn lw grbt akhleha string msh hyrda
+            //shaghal 3adi w sah 3shan int de value type lakn lw grbt akhleha string msh hyrda
 
+
+            #endregion
+
+            #region  Q8: What is the 'class' constraint? Write an example.
+            //class constraint requires the generic type to be a reference type.
+
+            // ====== example ======
+            //ReferenceContainer<string> container = new ReferenceContainer<string>();
+
+            // hna b2a el3ks howa beygbrna nktb refrence type msh value
 
             #endregion
 
