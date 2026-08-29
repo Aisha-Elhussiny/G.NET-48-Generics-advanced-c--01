@@ -138,6 +138,12 @@
             //difference between covariance and contravariance is that covariance allows you to use a more derived type, while contravariance allows you to use a less derived type. Covariance is typically used in return types, while contravariance is typically used in parameter types.
 
             #endregion
+            #region Q18: How do static members work in generic types?
+
+            //Static members in generic types are shared across all instances of the same generic type with the same type parameter. Each unique instantiation of a generic type has its own set of static members, allowing for type-specific behavior and data storage.
+            
+            #endregion
+
 
         }
         public static void Swap<T>(ref T a, ref T b)
