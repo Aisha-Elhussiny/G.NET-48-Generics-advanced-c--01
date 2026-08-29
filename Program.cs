@@ -141,7 +141,12 @@
             #region Q18: How do static members work in generic types?
 
             //Static members in generic types are shared across all instances of the same generic type with the same type parameter. Each unique instantiation of a generic type has its own set of static members, allowing for type-specific behavior and data storage.
-            
+
+            #endregion
+            #region Q19: How can you inherit from a generic class?
+
+            //You can inherit from a generic class by specifying the type parameter(s) in the derived class. The derived class can either use the same type parameter(s) or specify concrete types for them. This allows you to create specialized versions of the generic class while still benefiting from its generic behavior.
+            //y3ni lw 3ayz a5od el class ely 3mltaha generic w a3mlha extend 3la class tany lw 3ayz a5od el type parameter bta3ha w a3mlha extend 3la class tany aw a5od el type parameter bta3ha w a7ot feha type mo3ayan.
             #endregion
 
 
