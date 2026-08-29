@@ -107,6 +107,10 @@
 
 
             #endregion
+            #region Q13: What does the 'default' keyword do in generics?
+
+            //The default keyword in generics is used to obtain the default value of a type parameter. For reference types, the default value is null, while for value types, it is the zero value ( 0 for int, false for bool). It allows you to create instances of generic types without knowing their specific type at compile time.
+            #endregion
 
         }
         public static void Swap<T>(ref T a, ref T b)
