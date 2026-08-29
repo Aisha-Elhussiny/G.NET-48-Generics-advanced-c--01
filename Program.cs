@@ -125,6 +125,11 @@
             //Console.WriteLine(names.Get(10)); //hytl3 null 3shan da el default w hwa invalid index
             #endregion
 
+            #region Q15: What is covariance? Explain the 'out' keyword.
+
+            //Covariance allows you to use a more derived type than originally specified. The out keyword is used to indicate that a type parameter is covariant, meaning it can be substituted with a more derived type. This is typically used in interfaces  to enable flexibility in method return types.
+            #endregion
+
         }
         public static void Swap<T>(ref T a, ref T b)
         {
