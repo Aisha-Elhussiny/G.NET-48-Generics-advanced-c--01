@@ -73,6 +73,18 @@
             // hna b2a el3ks howa beygbrna nktb refrence type msh value
 
             #endregion
+            #region Q9: What is the 'new()' constraint? Write an example.
+            //new() constraint require the class to have a parameterless constructor .
+            //lazem ya7twii 3la parameterless constructor.
+
+
+            //====== example =====
+            //ObjectFactory<Student> factory = new ObjectFactory<Student>();
+
+            //Student student = factory.CreateObject();
+
+
+            #endregion
 
         }
         public static void Swap<T>(ref T a, ref T b)
